@@ -1,0 +1,112 @@
+.logo-text{
+    color:rgba(103,1,111,1.0) !important ;font-weight: bold;
+}
+.bg-white{
+    background-color: rgba(255,255,255,0.95) !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+.text-purple{
+    color:#67016f;
+}
+.bg-circle{
+    width:50px;
+    height:50px;
+    border-radius:10px; 
+    text-align: center;
+    color:#fff;
+}
+.bg-purple{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-image: linear-gradient(to right, rgb(168, 26, 173), rgb(101 42 136))
+}
+.bg-purple1{
+    background-color: #67016f;
+}
+.font{
+    /* font-family:  sans-serif !important; */
+    letter-spacing: 0.5px;
+}
+.list{
+    list-style-image: url('../img/uparrow.png');
+
+}
+.list li{
+    line-height: 20px;
+}
+.list-none{
+list-style-type: none;
+padding-left:20px;
+width:90%;
+}
+.btn-learn{
+    padding: 12px 30px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    line-height: 1;
+    font-size: 20px;
+    color: #fff;
+    max-width: 165px;
+    
+    left: 30px;
+    bottom: 20px;
+
+}
+.img-circle{
+    background: none;
+    border:1px solid #000;
+    border-radius:50%;
+}
+footer a:hover{
+    color:#9d2ea6 !important;
+    font-weight: bold;
+}
+.img-circle-responsive{
+    width: 100%;
+    border-radius: 50%;
+    border:3px solid #9d2ea6;
+}
+.list-arrow{
+    list-style-image: url(../img/arrow-left.png);
+}
+.list-arrow li{
+    line-height: 30px;
+}
+
+/* Testimonial */
+
+  /* Carousel */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 18rem;
+    background:#c2a1d6;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+      font-family: sans-serif;
+      color:#000;
+    }
+    .carousel-caption h4 {
+      color:rgb(99, 21, 122);
+    }
+   }
+   /*  testimonial */
